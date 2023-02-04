@@ -1,0 +1,19 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 2000KB
+      max-request-size: 2000KB
+      enabled: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+server:
+  port: 2606
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-response: true
